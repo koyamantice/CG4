@@ -8,7 +8,7 @@
 using namespace DirectX;
 
 Player::Player() {
-	model = Model::CreateFromOBJ("mochi");
+	model = Model::CreateFromOBJ("chr_knight");
 	object3d = new Object3d();
 	shadowObj = new Object3d();
 	Sprite::LoadTexture(3, L"Resources/2d/gage.png");
